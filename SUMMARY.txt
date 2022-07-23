@@ -1,0 +1,20 @@
+RENTAL DRESS SYSTEM
+
+
+                          TITLE:   FASHION ON RENT 
+
+
+Summary:-
+In Web Based Project, called "FASHION ON RENT" we are providing customers to rent Aparels online 
+and where customers can give their reviews based on their experience. Customers can easily View, 
+Select, Search, Cancel and Rent Dresses online. On our System Vendors can put their Dresses for 
+renting. On this we also providing  facility for customers to become Vendor  by providing their
+registration details as Vendor. Admin being the host can manage the Product Catalogue and has right
+to approve the request made by Vendor to Upload and make changes in Dress details.
+
+
+Features:-
+1)Offer vendors to expand their business.
+2)A Customer can also become a small scale vendor by putting out their 1-2 dresses.
+3)Filter products according to size,occasions.
+4)Customer and Vendor can give their Complaints/feedback.
