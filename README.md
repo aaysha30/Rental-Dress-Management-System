@@ -1,1 +1,1 @@
-# Group_7
+# Rental Dress Management System
