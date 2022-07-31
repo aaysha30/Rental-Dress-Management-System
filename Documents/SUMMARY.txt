@@ -3,10 +3,12 @@ RENTAL DRESS SYSTEM
 
                           TITLE:   FASHION ON RENT 
 
-//Aaysha...Chouhan Hiiii Hello
+
 Summary:-
-In Web Based Project, called "FASHION ON RENT" we are providing customers to rent Aparels online 
-and where customers can give their reviews based on their experience. Customers can easily View, 
+It is a multiple vendor supporting "Online Web Portal".This system is managing three roles nainly Customer,Vendor and Admin.
+Customers can book dresses on rent,can cancel booking,can search for dresses,can view dress.
+
+we are providing customers to rent Aparels online and where customers can give their reviews based on their experience. Customers can easily View, 
 Select, Search, Cancel and Rent Dresses online. On our System Vendors can put their Dresses for 
 renting. On this we also providing  facility for customers to become Vendor  by providing their
 registration details as Vendor. Admin being the host can manage the Product Catalogue and has right
