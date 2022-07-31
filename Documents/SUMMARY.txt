@@ -17,5 +17,7 @@ Features:-
 2)Avaibility->In this,Admin can check whether the dress from a particular category is available or not.
 3)Search->Customer Can search by dress Categories.
 4)CRM->Customer can give review,can put complaint and can provide feedback too.
+5)View->Customer can view their order details,Vendor can also view their Inventory.
+
 
 
