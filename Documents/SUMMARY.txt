@@ -13,7 +13,9 @@ Catalogue and has right to approve the request made by Vendor to Upload and make
 
 
 Features:-
-1)Offer vendors to expand their business.
-2)A Customer can also become a small scale vendor by putting out their 1-2 dresses.
-3)Filter products according to size,occasions.
-4)Customer and Vendor can give their Complaints/feedback.
+1)Billing->Our system will provide auto billing system.
+2)Avaibility->In this,Admin can check whether the dress from a particular category is available or not.
+3)Search->Customer Can search by dress Categories.
+4)CRM->Customer can give review,can put complaint and can provide feedback too.
+
+
