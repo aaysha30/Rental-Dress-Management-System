@@ -5,19 +5,11 @@ RENTAL DRESS SYSTEM
 
 
 Summary:-
+
 "FASHION ON RENT" is a multiple vendor supporting "Online Web Portal".This system involves three roles mainly Customer,Vendor and Admin.
-We are providing customers to rent Aparels online where customers can give their reviews based on their experience. Customers can easily
-View, Select, Search, Cancel and Rent Dresses online. On our System Vendors can put their Dresses for renting. On this we also providing
-facility for customers to become Vendor  by providing their registration details as Vendor. Admin being the host can manage the Product 
-Catalogue and has right to approve the request made by Vendor to Upload and make changes in Dress details.
-
-
-Features:-
-1)Billing->Our system will provide auto billing system.
-2)Avaibility->In this,Admin can check whether the dress from a particular category is available or not.
-3)Search->Customer Can search by dress Categories.
-4)CRM->Customer can give review,can put complaint and can provide feedback too.
-5)View->Customer can view their order details,Vendor can also view their Inventory.
-
+Portal provides customers to rent Aparels online where customers can give their reviews based on their experience. Customers can easily
+View, Select, Search, Cancel and Rent Aparels online. Vendors can put their Aparels for renting on this Portal. On this we are also providing
+facility for customers to become Vendor by providing their registration details as Vendor. Admin being the host can manage the Product 
+Catalogue and has right to approve the request made by Vendor to Upload and make changes in Aparel details.
 
 
