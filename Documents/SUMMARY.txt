@@ -6,7 +6,7 @@ RENTAL DRESS SYSTEM
 
 Summary:-
 
-"FASHION ON RENT" is an online web portal with multi-vendor support.
+"FASHION ON RENT" is an online web portal for customers to rent online with multi-vendor support.
 
 With features like online catalogue, search & feedbacks, fashion vendors can list their rentals online.
 
