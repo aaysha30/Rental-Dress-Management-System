@@ -6,10 +6,12 @@ RENTAL DRESS SYSTEM
 
 Summary:-
 
-"FASHION ON RENT" is a multiple vendor supporting "Online Web Portal".This system involves three roles mainly Customer,Vendor and Admin.
-Portal provides customers to rent Aparels online where customers can give their reviews based on their experience. Customers can easily
-View, Select, Search, Cancel and Rent Aparels online. Vendors can put their Aparels for renting on this Portal. On this we are also providing
-facility for customers to become Vendor by providing their registration details as Vendor. Admin being the host can manage the Product 
-Catalogue and has right to approve the request made by Vendor to Upload and make changes in Aparel details.
+"FASHION ON RENT" is an online web portal with multi-vendor support.
+
+With features like online catalogue, search & feedbacks, fashion vendors can list their rentals online.
+
+While keeping the ease of use for customers with completely online cloth renting experience with reviews, selections and billing.
+
+With role based handling like Admins, Vendors & Customer; the app creates a smooth renting experience for all the parties while maintaining proper differentiation & permissions.
 
 
