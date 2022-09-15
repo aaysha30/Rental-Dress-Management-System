@@ -12,14 +12,14 @@ Summary:-
 
 With features like online catalogue, search & feedbacks, fashion vendors can list their rentals online.
 
-This portal provides ease of use to customers with completely online cloth renting experience with reviews, selections and billing.
+This portal provides ease of use to customers with a complete online dress renting experience with features of reviews, selections and billing.
 
-With role based handling like Admins, Vendors & Customer; the app creates a smooth renting experience for all the parties while maintaining proper differentiation & permissions.
+The application creates a smooth renting experience for all the parties while maintaining proper differentiation & permissions with role based handling like Admin, Vendor & Customer. 
 
 
 
 Technologies:
-HTML, CSS, JavaScript, ReactJS(?), J2EE, MySql, GitHub, 
+ReactJS, HTML, CSS, JavaScript, J2EE, MySql, GitHub, 
 Framework: SpringBoot, ReactJS
 
 ?-->  JPA Hibernate, Selenium
