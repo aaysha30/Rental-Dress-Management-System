@@ -6,12 +6,22 @@ RENTAL DRESS SYSTEM
 
 Summary:-
 
-"FASHION ON RENT" is an online web portal for customers to rent online with multi-vendor support.
+"FASHION ON RENT" is an online web portal providing users a platform to rent dresses from multiple vendors.
+
+
 
 With features like online catalogue, search & feedbacks, fashion vendors can list their rentals online.
 
-While keeping the ease of use for customers with completely online cloth renting experience with reviews, selections and billing.
+This portal provides ease of use to customers with completely online cloth renting experience with reviews, selections and billing.
 
 With role based handling like Admins, Vendors & Customer; the app creates a smooth renting experience for all the parties while maintaining proper differentiation & permissions.
+
+
+
+Technologies:
+HTML, CSS, JavaScript, ReactJS(?), J2EE, MySql, GitHub, 
+Framework: SpringBoot, ReactJS
+
+?-->  JPA Hibernate, Selenium
 
 
