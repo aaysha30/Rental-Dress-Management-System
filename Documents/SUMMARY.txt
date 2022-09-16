@@ -19,9 +19,6 @@ The application creates a smooth renting experience for all the parties while ma
 
 
 Technologies:
-ReactJS, HTML, CSS, JavaScript, J2EE, MySql, GitHub, 
-Framework: SpringBoot, ReactJS
-
-?-->  JPA Hibernate, Selenium
+ReactJS, HTML, CSS, JavaScript, J2EE, SpringBoot, MySql, GitHub, Selenium
 
 
