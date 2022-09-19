@@ -17,8 +17,8 @@ const cartSlice=createSlice({
                 console.log("Cart Items : "+state.cartItems.forEach((e)=>{console.log("Array of Data : "+e)}))
             },
             save(state,action){
-                state.uname=action.payload
-                state.password=action.payload
+                state.uname=action.payload.uname
+                state.password=action.payload.password
                 console.log("In Slice :-> User name : "+state.uname)
                 console.log("In Slice :-> Password name : "+state.password)
             }
@@ -26,6 +26,10 @@ const cartSlice=createSlice({
     }
    
 );
+
+
+
+
 
 //const store1=cartSlice.reducer
 //export default store;
