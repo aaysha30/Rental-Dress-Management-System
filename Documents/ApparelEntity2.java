@@ -2,13 +2,23 @@ package study.project;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.Table;
 
+
+enum Status {
+    Available,
+    Unavailable,
+    Rejected,
+}
+
+
 @Entity
-@Table(name="appareltable1")
+@Table(name="appareltable")
 public class ApparelEntity2 {
 
 	@Id
@@ -29,7 +39,11 @@ public class ApparelEntity2 {
 	private String size;
 	@Column
 	private String gender;
-	
+	@Lob
+	private byte[] image;
+	@Column
+	@Enumerated(value=EnumType.STRING)
+	private Status status=Status.Available;
 	
 	
 	public ApparelEntity2() {
@@ -37,10 +51,10 @@ public class ApparelEntity2 {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ApparelEntity2(int vendorId, String description, String category, int damount,
-			int ramount, String size, String gender) {
+
+	public ApparelEntity2(int vendorId, String description, String category, int damount, int ramount, String size,
+			String gender, byte[] image) {
 		super();
-//		this.apparelID = apparelID;
 		this.vendorId = vendorId;
 		this.description = description;
 		this.category = category;
@@ -48,15 +62,33 @@ public class ApparelEntity2 {
 		this.ramount = ramount;
 		this.size = size;
 		this.gender = gender;
+		this.image = image;
+	}
+	
+	public Status getStatus() {
+		return status;
 	}
 
-//	public int getApparelID() {
-//		return apparelID;
-//	}
-//
-//	public void setApparelID(int apparelID) {
-//		this.apparelID = apparelID;
-//	}
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+
+
+	public byte[] getImage() {
+		return image;
+	}
+
+	public void setImage(byte[] image) {
+		this.image = image;
+	}
+
+	public int getApparelID() {
+		return apparelID;
+	}
+
+	public void setApparelID(int apparelID) {
+		this.apparelID = apparelID;
+	}
 
 	public int getVendorId() {
 		return vendorId;
