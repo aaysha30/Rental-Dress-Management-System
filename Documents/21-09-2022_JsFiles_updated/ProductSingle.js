@@ -8,6 +8,14 @@ import { addToCart } from '../store/cartSlice';
 
 export default function ProductSingle() {
     //const {id} = useParams();
+    const genderF='f';
+    const genderM='m';
+    const category1="Sherwani";
+    const category2="Tuxedo";
+    const category3="Kurta";
+    const category4="Lehenga";
+    const category5="Gown"; 
+    const category6="Western";
 const obj=useParams();
 let [items,setItem]=useState([])
 //let [purchases,setPurchases]=useState([])
@@ -53,236 +61,153 @@ const navigate=useNavigate();
         <div>
                 <React.Fragment>
 
-                    <section className="top-header">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-4 col-xs-12 col-sm-4">
-                                    <div className="contact-number">
-                                        <Link to="/home"><img className='media-object' width="80px" height="80px" src='/assets/images/shop/cart/logo2.png' /></Link>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-xs-12 col-sm-4">
-                                    {/* Site Logo */}
-                                    <div className="logo text-center">
-                                        <Link to="/">
-                                            {/* replace logo here */}
-                                            <h2>Fashion On Rent</h2>
-                        
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-xs-12 col-sm-4">
-                                    {/* Cart */}
-                                    <ul className="top-menu text-right list-inline">
-                                        <li className="dropdown cart-nav dropdown-slide">
-                                            <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
-                                                    className="tf-ion-android-cart"></i>Cart</Link>
-                                            <div className="dropdown-menu cart-dropdown">
-                                                {/* Cart Item */}
-                                                <div className="media">
-                                                    <Link className="pull-left" to="#!">
-                                                        <img className="media-object" src="assets/images/shop/cart/cart-1.jpg" alt="image" />
-                                                    </Link>
-                                                    <div className="media-body">
-                                                        <h4 className="media-heading"><Link to="#!">Ladies Bag</Link></h4>
-                                                        <div className="cart-price">
-                                                            <span>1 x</span>
-                                                            <span>1250.00</span>
-                                                        </div>
-                                                        <h5><strong>$1200</strong></h5>
-                                                    </div>
-                                                    <Link to="#!" className="remove"><i className="tf-ion-close"></i></Link>
-                                                </div>{/* / Cart Item */}
-                                                {/* Cart Item */}
-                                                <div className="media">
-                                                    <Link className="pull-left" to="#!">
-                                                        <img className="media-object" src="assets/images/shop/cart/cart-2.jpg" alt="image" />
-                                                    </Link>
-                                                    <div className="media-body">
-                                                        <h4 className="media-heading"><Link to="#!">Ladies Bag</Link></h4>
-                                                        <div className="cart-price">
-                                                            <span>1 x</span>
-                                                            <span>1250.00</span>
-                                                        </div>
-                                                        <h5><strong>$1200</strong></h5>
-                                                    </div>
-                                                    <Link to="#!" className="remove"><i className="tf-ion-close"></i></Link>
-                                                </div>{/* / Cart Item */}
-
-                                                <div className="cart-summary">
-                                                    <span>Total</span>
-                                                    <span className="total-price">$1799.00</span>
-                                                </div>
-                                                <ul className="text-center cart-buttons">
-                                                    <li><Link to="cart.html" className="btn btn-small">View Cart</Link></li>
-                                                    <li><Link to="checkout.html" className="btn btn-small btn-solid-border">Checkout</Link></li>
-                                                </ul>
-                                            </div>
-                                        </li>{/* / Cart */}
-
-                                        {/* Search */}
-                                        <li className="dropdown search dropdown-slide">
-                                            <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
-                                                    className="tf-ion-ios-search-strong"></i> Search</Link>
-                                            <ul className="dropdown-menu search-dropdown">
-                                                <li>
-                                                    <form action="post"><input type="search" className="form-control" placeholder="Search..."/></form>
-                                                </li>
-                                            </ul>
-                                        </li>{/* / Search */}
-
-                                        {/* Languages */}
-                                        <li className="commonSelect">
-                                            <select className="form-control">
-                                                <option>English</option>
-                                                <option>Japanese</option>
-                                                <option>Russian</option>
-                                                <option>French</option>
-                                            </select>
-                                        </li>{/* / Languages  */}
-
-                                    </ul>{/* / .nav .navbar-nav .navbar-right */}
-                                </div>
+                <section className="top-header">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4 col-xs-12 col-sm-4">
+                        <div className=" Fashion Logo">
+                            <Link className="pull-left" to="/">
+                            <img className="media-object" src="assets/images/logo/fas.jpg" alt="image" />
+                             </Link>
                             </div>
                         </div>
-                    </section>
+                        <div className="col-md-4 col-xs-12 col-sm-4">
+                            {/* <!-- Site Logo --> */}
+                            <div className="logo text-center">
+                                <Link to="/">
+							<h1>FASHION ON RENT</h1>
 
-                    <section className="menu">
-                        <nav className="navbar navigation">
-                            <div className="container">
-                                <div className="navbar-header">
-                                    <h2 className="menu-title">Main Menu</h2>
-                                    <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                                        aria-expanded="false" aria-controls="navbar">
-                                        <span className="sr-only">Toggle navigation</span>
-                                        <span className="icon-bar"></span>
-                                        <span className="icon-bar"></span>
-                                        <span className="icon-bar"></span>
-                                    </button>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-xs-12 col-sm-4">
+                            {/* <!-- Cart --> */}
+                            <ul className="top-menu text-right list-inline">
+                                <li className="dropdown cart-nav dropdown-slide">
+                                    <Link to="/Cart" className="dropdown-toggle" ><i
+                                            className="tf-ion-android-cart"></i>Cart</Link>
+                                </li>
+                                {/* <!-- / Cart --> */}
 
-                                </div>{/* / .navbar-header */}
 
-                                {/* Navbar Links */}
-                                <div id="navbar" className="navbar-collapse collapse text-center">
-                                    <ul className="nav navbar-nav">
-
-                                        {/* Home */}
-                                        <li className="dropdown ">
-                                            <Link to="/">Home</Link>
+                                {/* <!-- Search --> */}
+                                <li className="dropdown search dropdown-slide">
+                                    <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
+                                            className="tf-ion-ios-search-strong"></i> HELLO</Link>
+                                    <ul className="dropdown-menu search-dropdown">
+                                        <li>
+                                            <form action="post"><input type="search" className="form-control" placeholder="Search..." /></form>
                                         </li>
+                                    </ul>
+                                </li>
+                                {/* <!-- / Search --> */}
 
-                                        {/* shop */}
-                                        <li className="dropdown dropdown-slide">
-                                            <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-                                                role="button" aria-haspopup="true" aria-expanded="false">Shop <span
-                                                    className="tf-ion-ios-arrow-down"></span></Link>
-                                            <div className="dropdown-menu">
-                                                <div className="row">
+                                {/* <!-- Languages --> */}
+                                <li className="">
+                                <Link to={"/login"}>Login</Link>
+                                </li>
+                                {/* <!-- / Languages --> */}
 
-                                                    {/* Basic */}
-                                                    <div className="col-sm-12 col-xs-9">
-                                                        <ul>
-                                                            <li className="dropdown-header">Pages</li>
-                                                            <li role="separator" className="divider"></li>
-                                                            <li><Link to="/ProductCatalogue">Shop</Link></li>
-                                                            <li><Link to="/Checkout">Checkout</Link></li>
-                                                            <li><Link to="cart.html">Cart</Link></li>
-                                                            <li><Link to="pricing.html">Pricing</Link></li>
-                                                            <li><Link to="confirmation.html">Confirmation</Link></li>
+                            </ul>
+                            {/* <!-- / .nav .navbar-nav .navbar-right --> */}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* <!-- End Top Header Bar --> */}
 
-                                                        </ul>
-                                                    </div>
-                                                </div>{/* / .row */}
-                                            </div>{/* / .dropdown-menu */}
-                                        </li>{/* / Elements */}
 
-                                        {/* catalogue */}
-                                        <li className="dropdown dropdown-slide">
-                                            <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-                                                role="button" aria-haspopup="true" aria-expanded="false">Catalogue <span
-                                                    className="tf-ion-ios-arrow-down"></span></Link>
-                                            <div className="dropdown-menu">
-                                                <div className="row">
+            {/* <!-- Main Menu Section --> */}
+             <section className="menu">
+                <nav className="navbar navigation">
+                    <div className="container">
+                        <div className="navbar-header">
+                            <h2 className="menu-title">Main Menu</h2>
+                            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                                aria-expanded="false" aria-controls="navbar">
+                                <span className="sr-only">Toggle navigation</span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                            </button>
+                        </div>
+                        {/* <!-- / .navbar-header --> */}
 
-                                                    {/* For Him */}
-                                                    <div className="col-lg-6 col-md-6 mb-sm-3">
-                                                        <ul>
-                                                            <li className="dropdown-header">For Him</li>
-                                                            <li role="separator" className="divider"></li>
-                                                            <li><Link to="/products/sherwani">Sherwani</Link></li>
-                                                            <li><Link to="/products/tuxedo">Tuxedo</Link></li>
-                                                            <li><Link to="/products/kurta">Kurta Pyjama</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                    
-                                                    {/*For Her*/}
-                                                    <div className="col-lg-6 col-md-6 mb-sm-3">
-                                                        <ul>
-                                                            <li className="dropdown-header">For Her</li>
-                                                            <li role="separator" className="divider"></li>
-                                                            <li><Link to="/products/kurta">Lehenga</Link></li>
-                                                            <li><Link to="/products/gowns">Gowns</Link></li>
-                                                            <li><Link to="/products/western">Western</Link></li>
-                                                        </ul>
-                                                    </div>
+                        {/* <!-- Navbar Links --> */}
+                        <div id="navbar" className="navbar-collapse collapse text-center">
+                            <ul className="nav navbar-nav">
 
-                                                </div>{/* / .row */}
-                                            </div>{/* / .dropdown-menu */}
-                                        </li>
-                                        
-                                        {/* dashboard */}
-                                        <li className="dropdown dropdown-slide">
-                                            <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-                                                role="button" aria-haspopup="true" aria-expanded="false">Dashboard <span
-                                                    className="tf-ion-ios-arrow-down"></span></Link>
-                                            <div className="dropdown-menu">
-                                                <div className="row">
+                                {/* <!-- Home --> */}
+                                <li className="dropdown ">
+                                    <Link to="/">Home</Link>
+                                </li>
+                                {/* <!-- / Home --> */}
 
-                                                    
-                                                    {/* Contact */}
-                                                    <div className="col-lg-12 col-md-6 mb-sm-3">
-                                                        <ul>
-                                                            <li role="separator" className="divider"></li>
-                                                            <li><Link to="order.html">Orders</Link></li>
-                                                            <li><Link to="address.html">Address</Link></li>
-                                                            <li><Link to="profile-details.html">Profile Details</Link></li>
-                                                        </ul>
-                                                    </div>
+                                {/* <!-- Pages --> */}
+                                <li className="dropdown dropdown-slide">
+                                    <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+                                        role="button" aria-haspopup="true" aria-expanded="false">Catalogue <span
+                                            className="tf-ion-ios-arrow-down"></span></Link>
+                                    <div className="dropdown-menu">
+                                        <div className="row">
+                                            {/* <!-- For Him --> */}
+                                            <div className="col-lg-6 col-md-6 mb-sm-3">
+                                            <ul>
+														<li className="dropdown-header">For Him</li>
+														<li role="separator" className="divider"></li>
+														 
+                                                        <li><Link to={`/productByCategory/${category1}`}>Sherwani</Link></li>
+                                                    <li><Link to={`/productByCategory/${category2}`}>Tuxedo</Link></li>
+                                                    <li><Link to={`/productByCategory/${category3}`}>Kurta Pyjama</Link></li>
+                                               
+													</ul>
+                                            </div>
+                                            
+                                            {/* <!--For Her--> */}
+                                            <div className="col-lg-6 col-md-6 mb-sm-3">
+                                            <ul>
+														<li className="dropdown-header">For Her</li>
+														<li role="separator" className="divider"></li>
+                                                    <li><Link to={`/productByCategory/${category4}`}>Lehenga</Link></li>
+                                                    <li><Link to={`/productByCategory/${category5}`}>Gowns</Link></li>
+                                                    <li><Link to={`/productByCategory/${category6}`}>Western</Link></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        {/* <!-- / .row --> */}
+                                    </div>
+                                    {/* <!-- / .dropdown-menu --> */}
+                                </li>
+                                {/* <!-- / Pages --> */}
 
-                                                </div>{/* / .row */}
-                                            </div>{/* / .dropdown-menu */}
-                                        </li>
+                                <li className="dropdown dropdown-slide">
+                                    <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+                                    role="button" aria-haspopup="true" aria-expanded="false">Dashboard<span
+                                        className="tf-ion-ios-arrow-down"></span></Link>
 
-                                        {/* login details */}
-                                        <li className="dropdown dropdown-slide">
-                                            <Link to="#!" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
-                                                role="button" aria-haspopup="true" aria-expanded="false">Login Details <span
-                                                    className="tf-ion-ios-arrow-down"></span></Link>
-                                            <div className="dropdown-menu">
-                                                <div className="row">
-
-                                                    {/* Utility */}
-                                                    <div className="col-lg-12 col-md-6 mb-sm-3">
-                                                        <ul>
-                                                            <li role="separator" className="divider"></li>
-                                                            <li><Link to="/login">Login Page</Link></li>
-                                                            <li><Link to="/Signup">Signup Page</Link></li>
-                                                            <li><Link to="/forgetPassword">Forget Password</Link></li>
-                                                            <li><Link to="/VendorSignUp">VendorSignUp</Link></li>
-
-                                                        </ul>
-                                                    </div>
-                                                </div>{/* / .row */}
-                                            </div>{/* / .dropdown-menu */}
-                                        </li>
-
-                                    </ul>{/* / .nav .navbar-nav */}
-
-                                </div>
-                                {/*/.navbar-collapse */}
-                            </div>{/* / .container */}
-                        </nav>
-                    </section>
+                                        <div className="dropdown-menu">
+                                            <div className="row">
+                                                
+                                                {/* <!-- Contact --> */}
+                                                <div className="col-lg-12 col-md-6 mb-sm-3">
+                                                    <ul>
+                                                        <li><Link to="/Order">Orders</Link></li>
+                                                        <li><Link to="/profileDetails">Profile Details</Link></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            {/* <!-- / .row --> */}
+                                        </div>
+                                        {/* <!-- / .dropdown-menu --> */}
+                                </li>
+                            </ul>
+                            {/*  / .nav .navbar-nav */}
+                        </div>
+                        {/* /.navbar-collapse  */}
+                    </div>
+                    {/* <!-- / .container --> */}
+                </nav>
+            </section> 
 
                     <section className="single-product">
                         <div className="container">
@@ -310,7 +235,8 @@ const navigate=useNavigate();
                                                 <div className='carousel-outer'>
                                                     <div className='carousel-inner '>
                                                         <div className='item active'>
-                                                            <img src={data.image} className='col-md-12' />
+                                                            {/* <img src={data.image} className='col-md-12' /> */}
+                                                            <img className="img-responsive" src={`data:image/jpg;base64,${data.image}`} alt="product-img" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -332,7 +258,7 @@ const navigate=useNavigate();
                                             <h3 className="product-category">{data.description}</h3>
                                           Rent Amount :  <h3 className="product-price">{data.rent_amount}</h3>
                                          Deposit Amount :   <h3 className="product-price">{data.deposit_amount}</h3>
-                                                    
+                                        
                                          Size :   <h4 className="product-description mt-20">{data.size}</h4>
                                                     
                                             {/* <div className="product-quantity">

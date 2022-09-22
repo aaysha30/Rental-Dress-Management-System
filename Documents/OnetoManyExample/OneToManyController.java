@@ -21,6 +21,7 @@ public String Add() {
 		List<Address> list = new ArrayList<Address>();
 		list.add(new Address("MP",451556,p));
 		list.add(new Address("MH",1234,p));
+		
 		p.setLi(list);
 		
 		prepo.save(p);
