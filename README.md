@@ -16,7 +16,7 @@ Admin, Vendor & Customer.
 <ol>
 	<li>Clone project using link in git - https://github.com/aaysha30/Rental-Dress-Management-System.git </li>
 	<li>Open folder - documents/FinalProjectFiles</li>
-	<li>From Database folder import database.sql file in MySQL database.</li>
+	<li>import Database folder from database.sql file in MySQL database.</li>
 	<li>Use command - source "path of SQL file" </li>
 	<li>From backend folder extract - FinalProject.zip </li>
 	<li>Import project in spring boot Application.</li>
