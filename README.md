@@ -26,5 +26,4 @@ Admin, Vendor & Customer.
 	<li>You will be on home page of Fashion On Rent web App.</li>
 	<li>Project is ready to use.</li>
 	<li>If necessary Front-End files can be checked from folder - FrontEndFiles.zip </li>
-	<li>From frontend folder extract  folder.</li>
 </ol>
