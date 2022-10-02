@@ -1,8 +1,6 @@
-<b>Rental Dress Management System</b>
+<h3>!!Group Number 7!!</h3>
 
-<h3>!!GroupNumber7!!</h3>
-
-<h1 align="center"> Rental Dress Management System </h1>
+<h1 align="center"> <b>Rental Dress Management System</b> </h1>
 <h3 align="center"> Fashion On Rent </h3>
 <hr>
 <h2>Project Description</h2>
