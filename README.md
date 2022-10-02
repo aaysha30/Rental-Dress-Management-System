@@ -18,8 +18,8 @@ Admin, Vendor & Customer.
 	<li>Open folder - documents/FinalProjectFiles</li>
 	<li>import Database folder from database.sql file in MySQL database.</li>
 	<li>Use command - source "path of SQL file" </li>
-	<li>From backend folder extract - FinalProject.zip </li>
-	<li>Import project in spring boot Application.</li>
+	<li>To run the web App extract - FinalProject.zip </li>
+	<li>Import the project in spring boot Application.</li>
 	<li>In project, make changes in "src/main/resources/application.properties" for connection with database</li>
 	<li>Run Project as spring boot application.</li>
 	<li>Run http://localhost:8080 on your browser.</li>
