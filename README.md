@@ -22,6 +22,7 @@ Admin, Vendor & Customer.
 	<li>Import project in spring boot Application.</li>
 	<li>In project, make changes in "src/main/resources/application.properties" for connection with database</li>
 	<li>Run Project as spring boot application.</li>
+	<li>Run http://localhost:8080 on your browser.</li>
 	<li>You will be on home page of Fashion On Rent web App.</li>
 	<li>Project is ready to use.</li>
 	<li>If necessary Front-End files can be checked from folder - FrontEndFiles.zip </li>
