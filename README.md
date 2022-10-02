@@ -25,6 +25,7 @@ Admin, Vendor & Customer.
 	<li>Run http://localhost:8080 on your browser.</li>
 	<li>You will be on home page of Fashion On Rent web App.</li>
 	<li>Project is ready to use.</li>
-	<li></li>
+</ol>
+<ol>
 	<li>If necessary Front-End files can be checked from folder - FrontEndFiles.zip </li>
 </ol>
