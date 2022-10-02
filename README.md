@@ -10,10 +10,8 @@ selections and billing. The application maintains proper differentiation & permi
 Admin, Vendor & Customer
 
 
-How to Use..??
-
-
-Below steps will help you to run project locally in your PC :
+<h2>How to Use..??</h2>
+<h3>Below steps will help you to run project locally in your PC :</h3>
 
 <ol>
 	<li>Clone project using link in git - https://github.com/prabandhshinde/OnlineDoctorAppointmentSystem.git .</li>
