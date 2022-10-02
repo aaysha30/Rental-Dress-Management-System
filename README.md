@@ -15,15 +15,15 @@ Admin, Vendor & Customer.
 <h3>Here below are few steps will help you to run project locally in your PC :</h3>
 <ol>
 	<li>Clone project using link in git - https://github.com/aaysha30/Rental-Dress-Management-System.git </li>
-	<li>Open folder finalproject.</li>
+	<li>Open folder - documents/FinalProjectFiles</li>
 	<li>From Database folder import database.sql file in MySQL database.</li>
 	<li>Use command - source "path of SQL file" </li>
-	<li>From backend folder extract FinalProject.zip </li>
+	<li>From backend folder extract - FinalProject.zip </li>
 	<li>Import project in spring boot Application.</li>
 	<li>In project, make changes in "src/main/resources/application.properties" for connection with database</li>
 	<li>Run Project as spring boot application.</li>
 	<li>You will be on home page of Fashion On Rent web App.</li>
 	<li>Project is ready to use.</li>
-	<li>If necessary Front-End files can be checked from folder </li>
+	<li>If necessary Front-End files can be checked from folder - FrontEndFiles.zip </li>
 	<li>From frontend folder extract  folder.</li>
 </ol>
